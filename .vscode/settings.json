@@ -1,0 +1,13 @@
+{
+    "python.analysis.typeCheckingMode": "basic",
+    "robot.editor.4spacesTab": false,
+    "robot.interactiveConsole.arguments": [
+        "--outputdir","${workspaceFolder}/results"
+    ],
+    "robot.codeFormatter": "robotidy",
+    "robot.completions.keywords.format": "Title Case",
+    "robot.lint.ignoreEnvironmentVariables": [
+        "BASE_URL"
+    ]
+      
+}

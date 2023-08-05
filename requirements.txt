@@ -1,0 +1,4 @@
+robotframework
+robotframework-browser
+pyyaml
+python-dotenv

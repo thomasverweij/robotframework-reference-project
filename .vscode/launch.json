@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "robotframework-lsp",
+            "preLaunchTask": "ReadEnvFile",
+            "name": "Robot Framework: Launch template",
+            "request": "launch",
+            "terminal": "integrated",
+            "args": ["--variable","envfile:${input:envfile}","--outputdir","results"]
+        }
+    ],
+    "inputs": [
+        {
+            "id":"envfile",
+            "default":".env",
+            "description": "Select environment file",
+            "type":"pickString",
+            "options":[".env",".env-lol"]
+        }
+    ]
+}
