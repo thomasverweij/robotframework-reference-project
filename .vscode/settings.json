@@ -7,7 +7,7 @@
     "robot.codeFormatter": "robotidy",
     "robot.completions.keywords.format": "Title Case",
     "robot.lint.ignoreEnvironmentVariables": [
-        "BASE_URL"
+        "BASE_URL","BROWSER","HEADLESS","VIEWPORT"
     ]
       
 }
