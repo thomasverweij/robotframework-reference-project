@@ -6,7 +6,6 @@
     "configurations": [
         {
             "type": "robotframework-lsp",
-            "preLaunchTask": "ReadEnvFile",
             "name": "Robot Framework: Launch template",
             "request": "launch",
             "terminal": "integrated",
