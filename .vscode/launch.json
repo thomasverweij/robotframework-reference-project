@@ -19,7 +19,7 @@
             "default":".env",
             "description": "Select environment file",
             "type":"pickString",
-            "options":[".env",".env-lol"]
+            "options":[".env-dev",".env-test"]
         }
     ]
 }
