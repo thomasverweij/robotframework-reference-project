@@ -1,0 +1,8 @@
+configure = [
+    "AlignKeywordsSection:enabled=True:alignment_type=auto",
+    "AlignTestCasesSection:alignment_type=auto",
+    "AlignTemplatedTestCases:enabled=True",
+    "IndentNestedKeywords:enabled=True",
+    "NormalizeAssignments:enabled=True:equal_sign_type=remove",
+    "RenameKeywords:enabled=True"
+]

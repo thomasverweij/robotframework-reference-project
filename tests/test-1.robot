@@ -1,3 +1,3 @@
 *** Test Cases ***
 Test1
-    Log to console    %{BASE_URL}
+    Log To Console    %{BASE_URL}
