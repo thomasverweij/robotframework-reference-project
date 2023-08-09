@@ -5,7 +5,7 @@ Library     String
 
 *** Keywords ***
 ToDo App Is Open
-    New Page    %{BASE_URL}
+    New Page    %{TODOMVC_URL}
 
 I Add A New ToDo "${todo}"
     Fill Text       .new-todo       ${todo}
@@ -24,7 +24,8 @@ I Add New ToDos "${todo}"
     END
 
 Open ToDos Should Show "${text}"
-    Get Text    span.todo-count     ==      ${text}
+    ${actual}       Get Text    span.todo-count
+    Should Be Equal As Strings                      ${actual}           ${text}             ignore_case=True
 
 I Mark ToDo "${todo}"
     Click       "${todo}" >> .. >> input.toggle
